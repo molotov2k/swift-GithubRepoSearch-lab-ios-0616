@@ -6,6 +6,8 @@ target 'swift-githubRepoSearch-lab' do
   use_frameworks!
 
   # Pods for swift-githubRepoSearch-lab
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
 
   target 'swift-githubRepoSearch-labTests' do
     inherit! :search_paths
