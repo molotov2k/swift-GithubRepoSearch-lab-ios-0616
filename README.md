@@ -61,5 +61,9 @@ Alamofire.request(.DELETE, url).responseJSON { (response) in
 
 3. Add a `UIBarButtonItem` (with to your TableViewController in Storyboard. When a user taps the button, it should display a `UIAlertController` that prompts the user to enter a search query. Add a `UIAlertAction` to initiate the search. [This](http://useyourloaf.com/blog/2014/09/05/uialertcontroller-changes-in-ios-8.html) is my favorite resource on `UIAlertController`.
 
-4. Re-implement the star/unstar methods using Alamofire instead of NSURLSession. If you didn't complete the Github Repo Starring lab, reference those instructions implementing the methods using Alamofire.
+4. Re-implement the getRepositories and star/unstar methods using Alamofire instead of NSURLSession. If you didn't complete the Github Repo Starring lab, reference those instructions implementing the methods using Alamofire.
+
+**Hint**: The JSON object that you serialize in your API Client contains more JSON objects. In you data store, iff you iterate through the JSON object that you receive back from the API client, you will be able to access those sub-objects. Assuming that the sub-objects are named json, each sub-object contains an index (which can be accessed by `json.0`) and the actual value (which can be accessed by `json.1` - in the case of this lab, `json.1` will give you a dictionary).
+
+When you have the dictionary that you need, you can access the values in those dictionaries like this: `dictionary["full_name"].string` (substituting the correct value type for string`. 
 
