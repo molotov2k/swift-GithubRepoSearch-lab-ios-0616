@@ -55,7 +55,7 @@ Alamofire.request(.DELETE, url).responseJSON { (response) in
 
 ## Instructions
 
-1. Bring over your code from the github-repo-starring lab. After dragging over your files, make sure you reestablish any connections needed in your project file. 
+1. Bring over your code from the github-repo-starring lab.
 
 2. Write a method in `GithubAPIClient` that searches a repo from the text provided in the alert controller (which you will create). Take a look at the [repo search documentation](https://developer.github.com/v3/search/#search-repositories) and implement the appropriate method to do a search for repositories.
 
