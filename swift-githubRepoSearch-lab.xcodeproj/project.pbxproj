@@ -17,7 +17,7 @@
 		2BDD30781D4A5B1E00D5EB65 /* GithubAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDD30771D4A5B1E00D5EB65 /* GithubAPIClient.swift */; };
 		2BDD307A1D4A5B2E00D5EB65 /* GithubRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDD30791D4A5B2E00D5EB65 /* GithubRepository.swift */; };
 		2BDD307C1D4A5B3800D5EB65 /* ReposTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDD307B1D4A5B3800D5EB65 /* ReposTableViewController.swift */; };
-		2BDD307E1D4A5DAE00D5EB65 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDD307D1D4A5DAE00D5EB65 /* Secrets.swift */; };
+		2BDD30801D4BB86B00D5EB65 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDD307F1D4BB86B00D5EB65 /* Secrets.swift */; };
 		3C7F44625AD55906A23C9E7F /* Pods_swift_githubRepoSearch_labTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980620F57E2091FE85A9A761 /* Pods_swift_githubRepoSearch_labTests.framework */; };
 		5FFD5BF2AB36B13E42479E31 /* Pods_swift_githubRepoSearch_labUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4865B8FCDA08050F0B456F /* Pods_swift_githubRepoSearch_labUITests.framework */; };
 		BB46125B2B5ED2FF85C2DD69 /* Pods_swift_githubRepoSearch_lab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3653A9052D4B6F546E08F2C9 /* Pods_swift_githubRepoSearch_lab.framework */; };
@@ -58,7 +58,7 @@
 		2BDD30771D4A5B1E00D5EB65 /* GithubAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPIClient.swift; sourceTree = "<group>"; };
 		2BDD30791D4A5B2E00D5EB65 /* GithubRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubRepository.swift; sourceTree = "<group>"; };
 		2BDD307B1D4A5B3800D5EB65 /* ReposTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposTableViewController.swift; sourceTree = "<group>"; };
-		2BDD307D1D4A5DAE00D5EB65 /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		2BDD307F1D4BB86B00D5EB65 /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		2D9DE6F8538FDDF13A40D4CB /* Pods-swift-githubRepoSearch-labTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-githubRepoSearch-labTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-githubRepoSearch-labTests/Pods-swift-githubRepoSearch-labTests.release.xcconfig"; sourceTree = "<group>"; };
 		3653A9052D4B6F546E08F2C9 /* Pods_swift_githubRepoSearch_lab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_githubRepoSearch_lab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37932F662B54A2EFD7DF653D /* Pods-swift-githubRepoSearch-labTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-githubRepoSearch-labTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-githubRepoSearch-labTests/Pods-swift-githubRepoSearch-labTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,12 +122,12 @@
 		2B691E2E1D259E2F006A22BD /* swift-githubRepoSearch-lab */ = {
 			isa = PBXGroup;
 			children = (
+				2BDD307F1D4BB86B00D5EB65 /* Secrets.swift */,
 				2B691E2F1D259E2F006A22BD /* AppDelegate.swift */,
 				2B691E331D259E2F006A22BD /* Main.storyboard */,
 				2BDD30751D4A5B1100D5EB65 /* ReposDataStore.swift */,
 				2BDD30771D4A5B1E00D5EB65 /* GithubAPIClient.swift */,
 				2BDD30791D4A5B2E00D5EB65 /* GithubRepository.swift */,
-				2BDD307D1D4A5DAE00D5EB65 /* Secrets.swift */,
 				2BDD307B1D4A5B3800D5EB65 /* ReposTableViewController.swift */,
 				2B691E361D259E2F006A22BD /* Assets.xcassets */,
 				2B691E381D259E2F006A22BD /* LaunchScreen.storyboard */,
@@ -440,7 +440,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BDD307A1D4A5B2E00D5EB65 /* GithubRepository.swift in Sources */,
-				2BDD307E1D4A5DAE00D5EB65 /* Secrets.swift in Sources */,
+				2BDD30801D4BB86B00D5EB65 /* Secrets.swift in Sources */,
 				2B691E301D259E2F006A22BD /* AppDelegate.swift in Sources */,
 				2BDD30761D4A5B1100D5EB65 /* ReposDataStore.swift in Sources */,
 				2BDD30781D4A5B1E00D5EB65 /* GithubAPIClient.swift in Sources */,
