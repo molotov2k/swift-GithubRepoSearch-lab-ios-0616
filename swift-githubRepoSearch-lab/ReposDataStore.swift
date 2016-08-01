@@ -15,8 +15,5 @@ class ReposDataStore {
     
     var repositories:[GithubRepository] = []
     
-    
-    
-    
 
 }
